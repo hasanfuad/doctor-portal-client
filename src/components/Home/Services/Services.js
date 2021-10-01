@@ -31,14 +31,16 @@ const Services = () => {
   return (
     <section className="text-center mt-5">
       <div>
-        <h5 style={{ color: "#1cc7c1" }}>OUR SERVICES</h5>
-        <h2>Services We Provide</h2>
+        <h4 style={{ color: "#1cc7c1" }}>OUR SERVICES</h4>
+        <h2 className="mt-4">Services We Provide</h2>
       </div>
-      <div className="row">
+      <div className="d-flex justify-content-center">
+          <div className="row w-75 pt-5 mt-5">
                 {
                     servicesInfo.map(servicesData => <ServicesCard servicesData={servicesData}></ServicesCard>)
                 }
-            </div>
+          </div>
+      </div>
     </section>
   );
 };
