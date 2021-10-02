@@ -15,7 +15,7 @@ const Exceptional = () => {
         </div>
         <div className="col-md-5">
           <h2>Exceptional Dental Care, on Your Terms</h2>
-          <p className="mt-4 text-secondary" style={{ lineHeight: "2.5" }}>
+          <p className="mt-4 text-secondary" style={{ lineHeight: "2" }}>
             lorem21 is Lorem ipsum dolor sit amet, consectet lorem21 is Lorem
             ipsum dolor sit amet, consectetlorem21 is Lorem ipsum dolor sit
             amet, consectetlorem21 is Lorem ipsum dolor sit amet,

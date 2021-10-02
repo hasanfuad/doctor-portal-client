@@ -1,0 +1,16 @@
+.testimonial {
+  height: 380px;
+  width: 480px;
+  padding: 50px;
+  margin: 15px;
+  box-shadow: 5px 5px 15px #c9ccd1;
+  border-radius: 4px;
+}
+
+.testimonial small {
+  text-align: left;
+  color: #3a4256;
+  line-height: 2.5;
+  width: 70%;
+  font-weight: 600;
+}
